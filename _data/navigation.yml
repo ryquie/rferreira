@@ -15,8 +15,5 @@ main:
   - title: "Students"
     url: /students/
 
-  - title: "Talks"
-    url: /talks/
-
   - title: "Teaching"
     url: /teaching/
