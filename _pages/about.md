@@ -4,8 +4,8 @@ title: "Home"
 author_profile: true
 ---
 
-I am an **Assistant Professor in the Department of Statistics at the Federal University of São Carlos (UFSCar)**, Brazil.
+I am a Professor in the  [Department of Statistics](https://www.des.ufscar.br)** at the [Federal University of São Carlos (UFSCar)](https://www.ufscar.br), Brazil.
 
-I enjoy **teaching, mentoring students, and helping people develop their ideas**.
+I enjoy teaching, mentoring students, and helping people develop their ideas.
 
-I also work on problems in **probability, stochastic processes, information theory, and stochastic calculus**, with applications in neuroscience and finance.
+I also work on probability and statistics, mainly with applications in neuroscience.
