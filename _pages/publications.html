@@ -5,32 +5,117 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="publications-simple">
 
-{% include base_path %}
+{% assign preprints = site.publications | where: "category", "preprints" | sort: "date" | reverse %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+{% if preprints.size > 0 %}
+<h2>Preprints</h2>
+
+<div class="pub-list">
+{% for post in preprints %}
+  <div class="pub-entry">
+    <div class="pub-title">{{ post.title }}</div>
+
+    {% if post.authors %}
+      <div class="pub-authors">{{ post.authors }}</div>
+    {% endif %}
+
+    <div class="pub-details">
+      Preprint{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+      {% if post.arxiv %}
+        <a href="{{ post.arxiv }}">[arXiv]</a>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">[PDF]</a>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
 {% endif %}
 
+
+{% assign articles = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+
+{% if articles.size > 0 %}
+<h2>Journal Articles</h2>
+
+<div class="pub-list">
+{% for post in articles %}
+  <div class="pub-entry">
+    <div class="pub-title">
+      <span class="pub-number">[{{ forloop.rindex }}]</span>
+      {{ post.title }}
+    </div>
+
+    {% if post.authors %}
+      <div class="pub-authors">{{ post.authors }}</div>
+    {% endif %}
+
+    <div class="pub-details">
+      {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+      {% if post.volume %} <strong>{{ post.volume }}</strong>{% endif %}
+      {% if post.pages %}, {{ post.pages }}{% endif %}
+      {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}.
+      {% if post.doi %}
+        <a href="{{ post.doi }}">[DOI]</a>
+      {% endif %}
+      {% if post.arxiv %}
+        <a href="{{ post.arxiv }}">[arXiv]</a>
+      {% endif %}
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">[PDF]</a>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+{% endif %}
+
+</div>
+
+<style>
+.publications-simple {
+  max-width: 900px;
+}
+
+.publications-simple h2 {
+  margin-top: 1.8em;
+  margin-bottom: 1em;
+  padding-bottom: 0.25em;
+  font-size: 1.25em;
+  font-weight: 500;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.pub-entry {
+  margin-bottom: 1.35em;
+  line-height: 1.5;
+}
+
+.pub-title {
+  font-weight: 500;
+}
+
+.pub-number {
+  display: inline-block;
+  min-width: 2.2em;
+  font-weight: 400;
+}
+
+.pub-authors {
+  margin-top: 0.1em;
+}
+
+.pub-details {
+  margin-top: 0.1em;
+}
+
+.pub-details a {
+  margin-left: 0.25em;
+  text-decoration: none;
+}
+</style>
 
 
