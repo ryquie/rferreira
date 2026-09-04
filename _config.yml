@@ -31,18 +31,22 @@ author:
   
 
   # Academic websites
-  academia         : # URL
-  arxiv            : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : # URL
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  academia :
+  arxiv : "SEU_LINK_DO_ARXIV"
+  googlescholar : "SEU_LINK_DO_GOOGLE_SCHOLAR"
+  inspire-hep :
+  impactstory :
+  orcid : "SEU_LINK_DO_ORCID"
+  semantic :
+  ssrn :
+  pubmed :
+  researchgate :
+  scopus :
+  zotero :
+
+  github :
+  bluesky :
+  linkedin :
 
 
   # Repositories and software development
