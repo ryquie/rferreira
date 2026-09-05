@@ -16,7 +16,7 @@ author_profile: true
 <div class="pub-list">
 {% for post in preprints %}
   <p class="pub-line">
-    {% if post.authors %}{{ post.authors }}. {% endif %}
+    {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}. {% endif %}
     <strong>{{ post.title }}</strong>.
     Preprint{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
     {% if post.arxiv %}<a href="{{ post.arxiv }}">[arXiv]</a>{% endif %}
