@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 date: 2020-10-06
 
-authors: "R. F. Ferreira, S. Gallo and F. Paccaut"
+authors: 'R. F. Ferreira, S. Gallo and <a href="https://www.lamfa.u-picardie.fr/paccaut/">F. Paccaut</a>'
 venue: "Nonlinearity"
 venueurl: "https://iopscience.iop.org/journal/0951-7715"
 volume: "33"
