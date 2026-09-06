@@ -21,9 +21,9 @@ author_profile: true
     <strong>{{ student.name }}</strong>.
   {% endif %}
 
-  {% if student.title %}
-    <em>{{ student.title }}</em>.
-  {% endif %}
+{% if student.title %}
+  {{ student.title }}.
+{% endif %}
 
   {% if student.year %}
     {{ student.year }}.
