@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 date: 2024-04-29
 
-authors: '<a href="https://br.linkedin.com/in/joaoizzi">J. V. R. Izzi</a>, R. F. Ferreira, V. A. Girardi and <a href="https://www.penaslab.com">R. F. O. Pena</a>'
+authors: '<a href="https://br.linkedin.com/in/joaoizzi">J. V. R. Izzi</a>, R. F. Ferreira, <a href="https://www.linkedin.com/in/victor-augusto-girardi/">V. A. Girardi</a> and <a href="https://www.penaslab.com">R. F. O. Pena</a>'
 
 venue: "Brain Sciences"
 venueurl: "https://www.mdpi.com/journal/brainsci"
