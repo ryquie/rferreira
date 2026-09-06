@@ -33,9 +33,9 @@ author_profile: true
     <span class="student-grant">({{ student.grant }})</span>
   {% endif %}
 
-  {% if student.thesisurl %}
-    <a href="{{ student.thesisurl }}">[Thesis]</a>
-  {% endif %}
+{% if student.thesisurl %}
+  <a href="{{ student.thesisurl }}">[Thesis]</a>
+{% endif %}
 </p>
 {% endfor %}
 {% endif %}
