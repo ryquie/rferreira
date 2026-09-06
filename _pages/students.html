@@ -14,10 +14,16 @@ author_profile: true
 {% for student in phd %}
 <p class="student-line">
   <span class="student-number">[{{ forloop.rindex }}]</span>
-  <strong>{{ student.name }}</strong>.
+
+  {% if student.studenturl %}
+    <strong><a href="{{ student.studenturl }}">{{ student.name }}</a></strong>.
+  {% else %}
+    <strong>{{ student.name }}</strong>.
+  {% endif %}
+
   {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
   {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
 </p>
 {% endfor %}
 {% endif %}
@@ -30,10 +36,16 @@ author_profile: true
 {% for student in master %}
 <p class="student-line">
   <span class="student-number">[{{ forloop.rindex }}]</span>
-  <strong>{{ student.name }}</strong>.
+
+  {% if student.studenturl %}
+    <strong><a href="{{ student.studenturl }}">{{ student.name }}</a></strong>.
+  {% else %}
+    <strong>{{ student.name }}</strong>.
+  {% endif %}
+
   {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
   {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
 </p>
 {% endfor %}
 {% endif %}
@@ -49,10 +61,16 @@ author_profile: true
 {% for student in thesis %}
 <p class="student-line">
   <span class="student-number">[{{ forloop.rindex }}]</span>
-  <strong>{{ student.name }}</strong>.
+
+  {% if student.studenturl %}
+    <strong><a href="{{ student.studenturl }}">{{ student.name }}</a></strong>.
+  {% else %}
+    <strong>{{ student.name }}</strong>.
+  {% endif %}
+
   {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
   {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
 </p>
 {% endfor %}
 {% endif %}
@@ -65,10 +83,16 @@ author_profile: true
 {% for student in research %}
 <p class="student-line">
   <span class="student-number">[{{ forloop.rindex }}]</span>
-  <strong>{{ student.name }}</strong>.
+
+  {% if student.studenturl %}
+    <strong><a href="{{ student.studenturl }}">{{ student.name }}</a></strong>.
+  {% else %}
+    <strong>{{ student.name }}</strong>.
+  {% endif %}
+
   {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
   {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
 </p>
 {% endfor %}
 {% endif %}
