@@ -6,7 +6,38 @@ phd:
     studenturl: "http://lattes.cnpq.br/7256020961352532"
     thesisurl: ""
 
+
 master:
+  - name: "Andrielle Couto Nora"
+    title: "Construção de carteiras financeiras eficientes por meio de um sistema adaptativo e hierárquico"
+    date: 2026-12-31
+    year: "Ongoing"
+    studenturl: "https://www.linkedin.com/in/andrielle-couto-nora-920a26240/"
+    thesisurl: ""
+
+  - name: "Gustavo Borges de Rezende"
+    title: "Identificação de relações causais entre neurônios estocásticos com memória de alcance variável na presença de múltiplos confundidores"
+    date: 2026-12-30
+    year: "Ongoing"
+    studenturl: "https://www.linkedin.com/in/gustavo-rezende-b67304250/"
+    grant: "CAPES"
+    thesisurl: ""
+
+  - name: "Riquelme Nascimento dos Santos"
+    title: "Seleção de árvore de contexto via testes de hipóteses com controle da taxa de erro global e aplicações na neurociência"
+    date: 2026-01-01
+    year: "2026"
+    studenturl: "https://www.linkedin.com/in/riquelmesantos/"
+    grant: "CAPES"
+    thesisurl: ""
+
+  - name: "Jesus Arbey Benavides"
+    title: "Comparação empírica da performance de classificadores probabilísticos e não-probabilísticos na classificação de dados financeiros"
+    date: 2023-01-01
+    year: "2023"
+    studenturl: "https://www.linkedin.com/in/jesusarbey/"
+    thesisurl: ""
+
   - name: "Matheus de Oliveira Souza"
     title: "Equações diferenciais estocásticas e as estratégias de hedging no mercado financeiro"
     date: 2022-01-01
@@ -14,24 +45,167 @@ master:
     studenturl: "https://www.linkedin.com/in/matheus-souza98/"
     thesisurl: "https://teses.usp.br/teses/disponiveis/104/104131/tde-08082022-164253/pt-br.html"
 
+
 undergraduate:
 
   thesis:
-    - name: "Aluno mais recente"
-      title: "Título do trabalho"
+    - name: "Eduardo Rio Oliveira"
+      title: "Um ensaio expositivo sobre demonstrações matemáticas na teoria da predição conformal"
+      date: 2026-12-31
+      year: "Ongoing"
+      studenturl: "https://www.linkedin.com/in/eduardo-rio/"
+      thesisurl: ""
+
+    - name: "Giovanna Pereira Cavalieri"
+      title: "Quantificação da incerteza associada com a predição de trens de disparos neuronais"
+      date: 2026-12-30
+      year: "Ongoing"
+      studenturl: "https://www.linkedin.com/in/giovanna-pereira-cavalieri/"
+      thesisurl: ""
+
+    - name: "Murilo Cassiavilani"
+      title: "O princípio da máxima relevância e mínima redundância para identificar relações causais em redes neuronais"
+      date: 2026-12-29
+      year: "Ongoing"
+      studenturl: "https://www.linkedin.com/in/murilo-cassiavilani-a7b539314/"
+      thesisurl: ""
+
+    - name: "Gabriel Flora Junqueira"
+      title: "Uma análise crítica da escolha de métodos de aprendizado utilizados na predição de interações entre proteínas"
+      date: 2026-12-28
+      year: "Ongoing"
+      studenturl: "https://www.linkedin.com/in/gabriel-flora-junqueira-0a3609328/"
+      thesisurl: ""
+
+    - name: "João Pedro Pirola"
+      title: "Detecção de mudança de conceito em ambientes de aprendizado de máquina"
+      date: 2026-01-01
+      year: "2026"
+      studenturl: "https://www.linkedin.com/in/joão-pedro-pirola-86b5a7224/"
+      thesisurl: ""
+
+    - name: "Henrique Ferreira da Silva Nobile"
+      title: "Intervalos de predição para o mercado de ações"
       date: 2025-01-01
       year: "2025"
-      link: "https://..."
+      studenturl: "https://www.linkedin.com/in/henrique-ferreira-da-silva-nobile-5129811a2/"
+      thesisurl: "https://repositorio.ufscar.br/items/dab375ff-f871-46c1-86ed-0abc3190db83"
 
-    - name: "Aluno mais antigo"
-      title: "Outro trabalho"
+    - name: "João Victor Russo Izzi"
+      title: "Testes de hipóteses para medidas da teoria da informação com aplicação na Neurociência"
+      date: 2025-01-01
+      year: "2025"
+      studenturl: "https://www.linkedin.com/in/joaoizzi/"
+      thesisurl: ""
+
+    - name: "Felipe Picagli"
+      title: "Agregação de classificadores e agrupadores em problemas com classes desbalanceadas"
+      date: 2025-01-01
+      year: "2025"
+      studenturl: "https://www.linkedin.com/in/felipe-picagli-834193336/"
+      thesisurl: ""
+
+    - name: "Ricardo Teixeira Romanelli"
+      title: "Uma abordagem baseada em passeios aleatórios sobre grafos para identificar o melhor piloto de fórmula 1 da história"
       date: 2024-01-01
       year: "2024"
-      link: ""
+      studenturl: "https://www.linkedin.com/in/ricardo-teixeira-romanelli-338b64175/"
+      thesisurl: "https://repositorio.ufscar.br/items/27ebaff7-a55d-49cd-8096-20dd7ac3849f"
+
+    - name: "Lucas Fernando de Moura"
+      title: "Classificação binária de dados financeiros em problemas com classes desbalanceadas"
+      date: 2024-01-01
+      year: "2024"
+      studenturl: "https://www.linkedin.com/in/lucas-fmoura/"
+      thesisurl: "https://repositorio.ufscar.br/items/e9c99cf3-c45f-44b8-9213-720a4ad139bf"
+
+    - name: "Matheus Elias Pacola"
+      title: "Estimação, seleção e predição de redes de neurônios estocásticos com memória de alcance variável"
+      date: 2024-01-01
+      year: "2024"
+      studenturl: "https://www.linkedin.com/in/matheus-pacola/"
+      thesisurl: "https://repositorio.ufscar.br/items/a92db58c-39c0-4948-bdb4-1643d294867b"
+
+    - name: "Isadora Nascimento de Almeida"
+      title: "Seleção estatística de árvores de contexto"
+      date: 2024-01-01
+      year: "2024"
+      studenturl: "https://www.linkedin.com/in/isadora-almeida-n/"
+      thesisurl: "https://repositorio.ufscar.br/items/d2d02f23-7084-495d-8df0-fca0e97d3793"
+
+    - name: "Bruno Matheus Brandini"
+      title: "Máquinas de vetores suporte com aplicação em classificação de crédito"
+      date: 2023-01-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/brunobrandini/"
+      thesisurl: "https://repositorio.ufscar.br/items/0aef3ce7-4cd4-4837-8e7b-9bc2715cff5f"
+
+    - name: "Rafael Setti Riedel Sturaro"
+      title: "Estratégias de reamostragem aplicadas em problemas de classificação binária de dados financeiros"
+      date: 2023-01-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/rafaelsetti7/"
+      thesisurl: "https://repositorio.ufscar.br/items/5a10d08d-f807-4891-8442-b772ec32080e"
+
+    - name: "Luiz Eduardo Piccin"
+      title: "Métodos de detecção de fraude em cartões de crédito: um estudo comparativo"
+      date: 2022-01-01
+      year: "2022"
+      studenturl: "https://www.linkedin.com/in/luiz-piccin/"
+      thesisurl: "https://repositorio.ufscar.br/items/63c708a4-bb2e-4309-970e-91aec60b6665"
+
+    - name: "Vitor Gomes Schiavone"
+      title: "Inferência da conectividade neuronal e o modelo de Galves e Locherbach"
+      date: 2022-01-01
+      year: "2022"
+      studenturl: "https://www.linkedin.com/in/vitor-schiavone/"
+      thesisurl: "https://repositorio.ufscar.br/items/1afb0de3-7b1c-4681-96df-cf057e56ceda"
+
+    - name: "Victor Augusto Girardi"
+      title: "Inferência da conectividade neuronal via medidas da teoria da informação"
+      date: 2021-01-01
+      year: "2021"
+      studenturl: "https://www.linkedin.com/in/victor-augusto-girardi/"
+      thesisurl: "https://repositorio.ufscar.br/items/e5483c61-4d8a-4f17-b76e-1adab0fdc190"
+
 
   research:
-    - name: "Nome do aluno"
-      title: "Título do projeto de iniciação científica"
-      date: 2025-01-01
-      year: "2025–2026"
-      link: "https://..."
+    - name: "João Pedro Pirola"
+      title: "A ligação entre células gliais e a transmissão sináptica"
+      date: 2024-01-01
+      year: "2024"
+      studenturl: "https://www.linkedin.com/in/joão-pedro-pirola-86b5a7224/"
+      grant: "FAPESP"
+      projecturl: "https://bv.fapesp.br/pt/bolsas/214501/a-ligacao-entre-celulas-gliais-e-a-transmissao-sinaptica/"
+
+    - name: "João Pedro Pirola"
+      title: "Identificação de células gliais por meio de redes neurais artificiais"
+      date: 2023-02-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/joão-pedro-pirola-86b5a7224/"
+      grant: "FAPESP"
+      projecturl: "https://bv.fapesp.br/pt/bolsas/212028/identificacao-de-celulas-glia-por-meio-de-redes-neurais-artificiais/"
+
+    - name: "João Victor Russo Izzi"
+      title: "Conectividade efetiva entre neurônios"
+      date: 2023-01-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/joaoizzi/"
+      grant: "FAPESP"
+      projecturl: "https://bv.fapesp.br/pt/bolsas/205351/conectividade-efetiva-entre-neuronios/"
+
+    - name: "Maria Clara do Carmo Santos"
+      title: "Práticas pedagógicas para o ensino de Estatística no Ensino Médio"
+      date: 2023-01-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/maria-clara-do-carmo-santos-6025662b2/"
+      grant: "CNPq"
+      projecturl: ""
+
+    - name: "Isadora Nascimento de Almeida"
+      title: "Programação quadrática aplicada à análise de portfólios de Markowitz"
+      date: 2021-01-01
+      year: "2021"
+      studenturl: "https://www.linkedin.com/in/isadora-almeida-n/"
+      grant: "CNPq"
+      projecturl: ""
