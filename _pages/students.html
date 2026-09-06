@@ -21,9 +21,21 @@ author_profile: true
     <strong>{{ student.name }}</strong>.
   {% endif %}
 
-  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
-  {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
+  {% if student.title %}
+    <em>{{ student.title }}</em>.
+  {% endif %}
+
+  {% if student.year %}
+    {{ student.year }}.
+  {% endif %}
+
+  {% if student.grant %}
+    <span class="student-grant">({{ student.grant }})</span>
+  {% endif %}
+
+  {% if student.thesisurl %}
+    <a href="{{ student.thesisurl }}">[Thesis]</a>
+  {% endif %}
 </p>
 {% endfor %}
 {% endif %}
@@ -43,9 +55,21 @@ author_profile: true
     <strong>{{ student.name }}</strong>.
   {% endif %}
 
-  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
-  {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
+  {% if student.title %}
+    <em>{{ student.title }}</em>.
+  {% endif %}
+
+  {% if student.year %}
+    {{ student.year }}.
+  {% endif %}
+
+  {% if student.grant %}
+    <span class="student-grant">({{ student.grant }})</span>
+  {% endif %}
+
+  {% if student.thesisurl %}
+    <a href="{{ student.thesisurl }}">[Thesis]</a>
+  {% endif %}
 </p>
 {% endfor %}
 {% endif %}
@@ -68,9 +92,21 @@ author_profile: true
     <strong>{{ student.name }}</strong>.
   {% endif %}
 
-  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
-  {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
+  {% if student.title %}
+    <em>{{ student.title }}</em>.
+  {% endif %}
+
+  {% if student.year %}
+    {{ student.year }}.
+  {% endif %}
+
+  {% if student.grant %}
+    <span class="student-grant">({{ student.grant }})</span>
+  {% endif %}
+
+  {% if student.thesisurl %}
+    <a href="{{ student.thesisurl }}">[Thesis]</a>
+  {% endif %}
 </p>
 {% endfor %}
 {% endif %}
@@ -90,9 +126,21 @@ author_profile: true
     <strong>{{ student.name }}</strong>.
   {% endif %}
 
-  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
-  {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.thesisurl %}<a href="{{ student.thesisurl }}">[Thesis]</a>{% endif %}
+  {% if student.title %}
+    <em>{{ student.title }}</em>.
+  {% endif %}
+
+  {% if student.year %}
+    {{ student.year }}.
+  {% endif %}
+
+  {% if student.grant %}
+    <span class="student-grant">({{ student.grant }})</span>
+  {% endif %}
+
+  {% if student.projecturl %}
+    <a href="{{ student.projecturl }}">[Project]</a>
+  {% endif %}
 </p>
 {% endfor %}
 {% endif %}
@@ -127,5 +175,18 @@ author_profile: true
 
 .student-number {
   margin-right: 0.5em;
+}
+
+.student-grant {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+.student-line a {
+  text-decoration: none;
+}
+
+.student-line a:hover {
+  text-decoration: underline;
 }
 </style>
