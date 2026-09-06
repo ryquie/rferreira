@@ -1,0 +1,102 @@
+---
+layout: archive
+title: "Students"
+permalink: /students/
+author_profile: true
+---
+
+<div class="students-simple">
+
+<h2>Undergraduate</h2>
+
+{% if site.data.students.undergraduate.tcc.size > 0 %}
+<h3>Bachelor's Thesis</h3>
+
+{% for student in site.data.students.undergraduate.tcc %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.index }}]</span>
+  <strong>{{ student.name }}</strong>.
+  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
+  {% if student.year %} TCC, {{ student.year }}.{% endif %}
+  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+</p>
+{% endfor %}
+{% endif %}
+
+
+{% if site.data.students.undergraduate.ic.size > 0 %}
+<h3>Undergraduate Research</h3>
+
+{% for student in site.data.students.undergraduate.ic %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.index }}]</span>
+  <strong>{{ student.name }}</strong>.
+  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
+  {% if student.year %} {{ student.year }}.{% endif %}
+  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+</p>
+{% endfor %}
+{% endif %}
+
+
+{% if site.data.students.master.size > 0 %}
+<h2>Master's</h2>
+
+{% for student in site.data.students.master %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.index }}]</span>
+  <strong>{{ student.name }}</strong>.
+  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
+  {% if student.year %} {{ student.year }}.{% endif %}
+  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+</p>
+{% endfor %}
+{% endif %}
+
+
+{% if site.data.students.phd.size > 0 %}
+<h2>PhD</h2>
+
+{% for student in site.data.students.phd %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.index }}]</span>
+  <strong>{{ student.name }}</strong>.
+  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
+  {% if student.year %} {{ student.year }}.{% endif %}
+  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+</p>
+{% endfor %}
+{% endif %}
+
+</div>
+
+<style>
+.students-simple {
+  max-width: 950px;
+}
+
+.students-simple h2 {
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.25em;
+  font-size: 1.25em;
+  font-weight: 600;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.students-simple h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.7em;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.student-line {
+  margin: 0 0 0.8em 0;
+  line-height: 1.6;
+}
+
+.student-number {
+  margin-right: 0.5em;
+}
+</style>
