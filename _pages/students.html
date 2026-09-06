@@ -49,11 +49,11 @@ author_profile: true
 <p class="student-line">
   <span class="student-number">[{{ forloop.rindex }}]</span>
 
-  {% if student.studenturl %}
-    <strong><a href="{{ student.studenturl }}">{{ student.name }}</a></strong>.
-  {% else %}
-    <strong>{{ student.name }}</strong>.
-  {% endif %}
+ {% if student.studenturl %}
+  <a href="{{ student.studenturl }}">{{ student.name }}</a>.
+{% else %}
+  {{ student.name }}.
+{% endif %}
 
   {% if student.title %}
     <em>{{ student.title }}</em>.
