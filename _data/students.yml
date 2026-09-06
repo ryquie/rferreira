@@ -1,30 +1,35 @@
-undergraduate:
-
-  tcc:
-    - name: "Nome do aluno"
-      title: "Título do trabalho de TCC"
-      year: "2025"
-      link: "https://..."
-
-    - name: "Outro aluno"
-      title: "Outro trabalho"
-      year: "2024"
-      link: ""
-
-  ic:
-    - name: "Nome do aluno"
-      title: "Título do projeto de iniciação científica"
-      year: "2025–2026"
-      link: "https://..."
+phd:
+  - name: "Nome do aluno"
+    title: "Título da tese ou tema"
+    date: 2026-01-01
+    year: "2026–"
+    link: "https://..."
 
 master:
   - name: "Nome do aluno"
     title: "Título da dissertação ou projeto"
+    date: 2025-01-01
     year: "2025–"
     link: "https://..."
 
-phd:
-  - name: "Nome do aluno"
-    title: "Título da tese ou tema"
-    year: "2026–"
-    link: "https://..."
+undergraduate:
+
+  thesis:
+    - name: "Aluno mais recente"
+      title: "Título do trabalho"
+      date: 2025-01-01
+      year: "2025"
+      link: "https://..."
+
+    - name: "Aluno mais antigo"
+      title: "Outro trabalho"
+      date: 2024-01-01
+      year: "2024"
+      link: ""
+
+  research:
+    - name: "Nome do aluno"
+      title: "Título do projeto de iniciação científica"
+      date: 2025-01-01
+      year: "2025–2026"
+      link: "https://..."
