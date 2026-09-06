@@ -7,59 +7,64 @@ author_profile: true
 
 <div class="students-simple">
 
-<h2>Undergraduate</h2>
-
-{% if site.data.students.undergraduate.tcc.size > 0 %}
-<h3>Bachelor's Thesis</h3>
-
-{% for student in site.data.students.undergraduate.tcc %}
-<p class="student-line">
-  <span class="student-number">[{{ forloop.index }}]</span>
-  <strong>{{ student.name }}</strong>.
-  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
-  {% if student.year %} TCC, {{ student.year }}.{% endif %}
-  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
-</p>
-{% endfor %}
-{% endif %}
-
-
-{% if site.data.students.undergraduate.ic.size > 0 %}
-<h3>Undergraduate Research</h3>
-
-{% for student in site.data.students.undergraduate.ic %}
-<p class="student-line">
-  <span class="student-number">[{{ forloop.index }}]</span>
-  <strong>{{ student.name }}</strong>.
-  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
-  {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
-</p>
-{% endfor %}
-{% endif %}
-
-
-{% if site.data.students.master.size > 0 %}
-<h2>Master's</h2>
-
-{% for student in site.data.students.master %}
-<p class="student-line">
-  <span class="student-number">[{{ forloop.index }}]</span>
-  <strong>{{ student.name }}</strong>.
-  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
-  {% if student.year %} {{ student.year }}.{% endif %}
-  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
-</p>
-{% endfor %}
-{% endif %}
-
-
-{% if site.data.students.phd.size > 0 %}
+{% assign phd = site.data.students.phd | sort: "date" | reverse %}
+{% if phd.size > 0 %}
 <h2>PhD</h2>
 
-{% for student in site.data.students.phd %}
+{% for student in phd %}
 <p class="student-line">
-  <span class="student-number">[{{ forloop.index }}]</span>
+  <span class="student-number">[{{ forloop.rindex }}]</span>
+  <strong>{{ student.name }}</strong>.
+  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
+  {% if student.year %} {{ student.year }}.{% endif %}
+  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+</p>
+{% endfor %}
+{% endif %}
+
+
+{% assign master = site.data.students.master | sort: "date" | reverse %}
+{% if master.size > 0 %}
+<h2>Master's</h2>
+
+{% for student in master %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.rindex }}]</span>
+  <strong>{{ student.name }}</strong>.
+  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
+  {% if student.year %} {{ student.year }}.{% endif %}
+  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+</p>
+{% endfor %}
+{% endif %}
+
+
+<h2>Undergraduate</h2>
+
+
+{% assign thesis = site.data.students.undergraduate.thesis | sort: "date" | reverse %}
+{% if thesis.size > 0 %}
+<h3>Bachelor's Thesis</h3>
+
+{% for student in thesis %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.rindex }}]</span>
+  <strong>{{ student.name }}</strong>.
+  {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
+  {% if student.year %} {{ student.year }}.{% endif %}
+  {% if student.link %}<a href="{{ student.link }}">[Link]</a>{% endif %}
+</p>
+{% endfor %}
+{% endif %}
+
+
+{% assign research = site.data.students.undergraduate.research | sort: "date" | reverse %}
+{% if research.size > 0 %}
+<h3>Undergraduate Research</h3>
+
+{% for student in research %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.rindex }}]</span>
   <strong>{{ student.name }}</strong>.
   {% if student.title %}<em>{{ student.title }}</em>.{% endif %}
   {% if student.year %} {{ student.year }}.{% endif %}
