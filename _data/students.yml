@@ -1,16 +1,18 @@
 phd:
-  - name: "Nome do aluno"
-    title: "Título da tese ou tema"
-    date: 2026-01-01
-    year: "2026–"
-    link: "https://..."
+  - name: "Jose Olívio da Silva Santana"
+    title: "Entropia de transferência para cadeias estocásticas com memória de alcance variável"
+    date: 2025-01-01
+    year: "2025"
+    studenturl: "http://lattes.cnpq.br/7256020961352532"
+    thesisurl: ""
 
 master:
-  - name: "Nome do aluno"
-    title: "Título da dissertação ou projeto"
-    date: 2025-01-01
-    year: "2025–"
-    link: "https://..."
+  - name: "Matheus de Oliveira Souza"
+    title: "Equações diferenciais estocásticas e as estratégias de hedging no mercado financeiro"
+    date: 2022-01-01
+    year: "2022"
+    studenturl: "https://www.linkedin.com/in/matheus-souza98/"
+    thesisurl: "https://teses.usp.br/teses/disponiveis/104/104131/tde-08082022-164253/pt-br.html"
 
 undergraduate:
 
