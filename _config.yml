@@ -21,9 +21,9 @@ repository : "ryquie/rferreira"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar : "profile.jpeg"
+  avatar : "profile.png"
   name : "Ricardo Felipe Ferreira"
-  pronouns : "He/Him" 
+  pronouns : "He/His/Him" 
   bio : "Professor"
   location : "Brasil"
   employer : "UFSCar"
