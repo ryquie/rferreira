@@ -4,7 +4,7 @@ title: "Home"
 author_profile: true
 ---
 
-I am a Professor in the  [Department of Statistics](https://www.des.ufscar.br) at the [Federal University of São Carlos (UFSCar)](https://www.ufscar.br), Brazil.
+I am a Professor in the [Department of Statistics](https://www.des.ufscar.br) at the [Federal University of São Carlos (UFSCar)](https://www.ufscar.br), Brazil.
 
 I enjoy teaching, mentoring students, and helping people develop their ideas.
 
@@ -33,13 +33,11 @@ I also work on probability and statistics, mainly with applications in neuroscie
   z-index: 0;
 }
 
-#main,
-.masthead {
+#main {
   position: relative;
   z-index: 1;
 }
 
-/* Em telas pequenas, não mostrar a arte */
 @media (max-width: 768px) {
   .home-art {
     display: none;
