@@ -28,7 +28,7 @@ I also work on probability and statistics, mainly with applications in neuroscie
   background-position: right bottom;
   background-size: contain;
 
-  opacity: 0.28;
+  opacity: 0.38;
   pointer-events: none;
   z-index: 0;
 }
