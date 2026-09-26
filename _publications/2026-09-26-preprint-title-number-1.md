@@ -2,8 +2,9 @@
 title: "Concentration of empirical entropy and transfer entropy for non-regular chains with unbounded memory"
 collection: publications
 category: preprints
-permalink: /publication/2026-meu-preprint
-date: 2026-09-26
-authors: "José Olívio Santana, Ricardo Felipe Ferreira"
+date: 2026-01-01
+
+authors: '<a href="http://lattes.cnpq.br/7256020961352532">J. O. Santana</a>, R. F. Ferreira'
+
 arxiv: ""
 ---
