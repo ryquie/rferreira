@@ -26,6 +26,14 @@ author_profile: true
 </div>
 {% endif %}
 
+{% if site.data.publications.preprints %}
+<h2>Preprints</h2>
+
+{% for publication in site.data.publications.preprints %}
+  <!-- usar aqui exatamente o mesmo HTML/CSS das journal publications -->
+{% endfor %}
+{% endif %}
+
 {% if articles.size > 0 %}
 <h2>Journal Articles</h2>
 
