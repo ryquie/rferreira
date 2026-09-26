@@ -15,7 +15,7 @@ master:
     studenturl: "https://www.linkedin.com/in/andrielle-couto-nora-920a26240/"
     thesisurl: ""
 
-   - name: "Gustavo Borges de Rezende"
+  - name: "Gustavo Borges de Rezende"
     title: "Identificação de relações causais entre neurônios estocásticos com memória de alcance variável na presença de múltiplos confundidores"
     date: 2026-12-30
     year: "Ongoing"
@@ -23,7 +23,7 @@ master:
     grant: "CAPES"
     thesisurl: ""
 
-   - name: "Ricardo José Córdova Soriano"
+  - name: "Ricardo José Córdova Soriano"
     title: "Planificación muestral más allá del TCL"
     date: 2026-12-30
     year: "Ongoing"
@@ -31,8 +31,8 @@ master:
     grant: ""
     thesisurl: ""
 
-    - name: "Salvador Enrique Rodríguez Hernández"
-    title: "Modelamiento estadístico del perfil estudiantil y de su desempeño en matemática."
+  - name: "Salvador Enrique Rodríguez Hernández"
+    title: "Modelamiento estadístico del perfil estudiantil y de su desempeño en matemática"
     date: 2026-12-30
     year: "Ongoing"
     studenturl: "https://www.linkedin.com/in/ricardocordova97/"
