@@ -23,6 +23,30 @@ master:
     grant: "CAPES"
     thesisurl: ""
 
+   - name: "Gustavo Borges de Rezende"
+    title: "Identificação de relações causais entre neurônios estocásticos com memória de alcance variável na presença de múltiplos confundidores"
+    date: 2026-12-30
+    year: "Ongoing"
+    studenturl: "https://www.linkedin.com/in/gustavo-rezende-b67304250/"
+    grant: "CAPES"
+    thesisurl: ""
+
+   - name: "Ricardo José Córdova Soriano"
+    title: "Planificación muestral más allá del TCL"
+    date: 2026-12-30
+    year: "Ongoing"
+    studenturl: "https://www.linkedin.com/in/ricardocordova97/"
+    grant: ""
+    thesisurl: ""
+
+    - name: "Salvador Enrique Rodríguez Hernández"
+    title: "Modelamiento estadístico del perfil estudiantil y de su desempeño en matemática."
+    date: 2026-12-30
+    year: "Ongoing"
+    studenturl: ""
+    grant: ""
+    thesisurl: ""
+
   - name: "Riquelme Nascimento dos Santos"
     title: "Seleção de árvore de contexto via testes de hipóteses com controle da taxa de erro global e aplicações na neurociência"
     date: 2026-01-01
