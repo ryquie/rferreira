@@ -8,5 +8,5 @@ authors: "R. F. Ferreira"
 degree: "Master's Thesis"
 institution: "PIPGES UFSCar/USP"
 
-thesisurl: "https://teses.usp.br/teses/disponiveis/104/104131/tde-12012017-111739/es.html"
+thesisurl: "https://teses.usp.br/teses/disponiveis/104/104131/tde-12012017-111739/pt-br.html"
 ---
