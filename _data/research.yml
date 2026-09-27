@@ -1,21 +1,19 @@
 grants:
 
-  - process: "2025/XXXXX-X"
-    processurl: "https://..."
+  - process: "225/13627-9"
+    processurl: "https://bv.fapesp.br/en/bolsas/231518/conformal-prediction-for-interacting-neuronal-systems-with-variable-length-memory/"
     institution: "FAPESP"
-    title: "Título do projeto mais recente"
-    type: "Regular Research Grant"
-    start: "2025"
+    title: "Conformal prediction for interacting neuronal systems with variable-length memory"
+    type: "Scholarships abroad - Research"
+    start: "2026"
     end: "2027"
-    role: "Principal Investigator"
-    date: 2025-01-01
+    date: 2027-07-31
 
-  - process: "XXXXXX/2023-X"
-    processurl: ""
-    institution: "CNPq"
-    title: "Título de outro projeto"
-    type: "Research Grant"
-    start: "2023"
-    end: "2025"
-    role: "Principal Investigator"
-    date: 2023-01-01
+  - process: "18/25076-3"
+    processurl: "https://bv.fapesp.br/en/bolsas/184671//"
+    institution: "FAPESP"
+    title: "High dimensional statistical inference for stochastic processes with application in neuroscience"
+    type: "Scholarships in Brazil - Post-Doctoral"
+    start: "2019"
+    end: "2019"
+    date: 2019-07-01
