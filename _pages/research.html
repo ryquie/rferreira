@@ -49,6 +49,15 @@ author_profile: true
     {{ grant.type }}.
   {% endif %}
 
+  {% if grant.host %}
+  Academic host:
+  {% if grant.hosturl and grant.hosturl != "" %}
+    <a href="{{ grant.hosturl }}">{{ grant.host }}</a>.
+  {% else %}
+    {{ grant.host }}.
+  {% endif %}
+{% endif %}
+
   {% if grant.start %}
     {{ grant.start }}{% if grant.end %}–{{ grant.end }}{% endif %}.
   {% endif %}
