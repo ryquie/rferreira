@@ -1,0 +1,93 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+<div class="research-simple">
+
+{% assign grants = site.data.research.grants | sort: "date" | reverse %}
+
+{% if grants.size > 0 %}
+<h2>Research Grants</h2>
+
+<div class="research-list">
+{% for grant in grants %}
+
+<p class="research-line">
+
+  <span class="research-number">[{{ forloop.rindex }}]</span>
+
+  {% if grant.title %}
+    <strong>{{ grant.title }}</strong>.
+  {% endif %}
+
+  {% if grant.agency %}
+    {% if grant.agencyurl %}
+      <a href="{{ grant.agencyurl }}">{{ grant.agency }}</a>
+    {% else %}
+      {{ grant.agency }}
+    {% endif %}
+  {% endif %}
+
+  {% if grant.start %}
+    ,
+    {{ grant.start }}
+    {% if grant.end %}
+      –{{ grant.end }}
+    {% endif %}
+  {% endif %}.
+
+  {% if grant.role %}
+    {{ grant.role }}.
+  {% endif %}
+
+  {% if grant.grant_number and grant.grant_number != "" %}
+    {{ grant.grant_number }}.
+  {% endif %}
+
+  {% if grant.projecturl and grant.projecturl != "" %}
+    <a href="{{ grant.projecturl }}">[Project]</a>
+  {% endif %}
+
+</p>
+
+{% endfor %}
+</div>
+{% endif %}
+
+</div>
+
+
+<style>
+.research-simple {
+  max-width: 950px;
+}
+
+.research-simple h2 {
+  margin-top: 1.8em;
+  margin-bottom: 1em;
+  padding-bottom: 0.25em;
+  font-size: 1.25em;
+  font-weight: 600;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.research-line {
+  margin: 0 0 0.8em 0;
+  line-height: 1.6;
+}
+
+.research-number {
+  margin-right: 0.5em;
+}
+
+.research-line a {
+  text-decoration: none;
+}
+
+.research-line a:hover {
+  text-decoration: underline;
+}
+</style>
