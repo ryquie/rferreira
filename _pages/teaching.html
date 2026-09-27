@@ -32,9 +32,9 @@ author_profile: true
     {{ note.year }}.
   {% endif %}
 
-  {% if note.pdfurl and note.pdfurl != "" %}
-    <a href="{{ note.pdfurl }}">[PDF]</a>
-  {% endif %}
+  {% if note.notesurl and note.notesurl != "" %}
+  <a href="{{ note.notesurl }}">[Notes]</a>
+{% endif %}
 </p>
 {% endfor %}
 
