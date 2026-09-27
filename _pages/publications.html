@@ -132,10 +132,6 @@ author_profile: true
   {% endif %}
 {% endif %}
 
-    {% if post.date %}
-      ({{ post.date | date: "%Y" }})
-    {% endif %}.
-
     {% if post.advisors and post.advisors.size > 0 %}
       {% if post.advisors.size == 1 %}
         Advisor:
@@ -149,6 +145,10 @@ author_profile: true
           {{ advisor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}
       {% endfor %}.
     {% endif %}
+
+      {% if post.date %}
+      ({{ post.date | date: "%Y" }})
+    {% endif %}.
 
   {% if post.grant %}
   {% if post.granturl and post.granturl != "" %}
