@@ -9,6 +9,7 @@ author_profile: true
 
 {% assign preprints = site.publications | where: "category", "preprints" | sort: "date" | reverse %}
 {% assign articles = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% assign theses = site.publications | where: "category", "theses" | sort: "date" | reverse %}
 
 
 {% if preprints.size > 0 %}
@@ -95,6 +96,43 @@ author_profile: true
 
     {% if post.biorxiv %}
       <a href="{{ post.biorxiv }}">[bioRxiv]</a>
+    {% endif %}
+
+  </p>
+{% endfor %}
+</div>
+{% endif %}
+
+
+{% if theses.size > 0 %}
+<h2>Theses</h2>
+
+<div class="pub-list">
+{% for post in theses %}
+  <p class="pub-line">
+
+    <span class="pub-number">[{{ forloop.rindex }}]</span>
+
+    {% if post.authors %}
+      {{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}.
+    {% endif %}
+
+    <strong>{{ post.title }}</strong>.
+
+    {% if post.degree %}
+      {{ post.degree }}
+    {% endif %}
+
+    {% if post.institution %}
+      , {{ post.institution }}
+    {% endif %}
+
+    {% if post.date %}
+      ({{ post.date | date: "%Y" }})
+    {% endif %}.
+
+    {% if post.thesisurl and post.thesisurl != "" %}
+      <a href="{{ post.thesisurl }}">[Thesis]</a>
     {% endif %}
 
   </p>
