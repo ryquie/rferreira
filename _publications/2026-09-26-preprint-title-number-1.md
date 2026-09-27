@@ -4,7 +4,7 @@ collection: publications
 category: preprints
 date: 2026-01-01
 
-authors: '<a href="http://lattes.cnpq.br/7256020961352532">J. O. Santana</a>, R. F. Ferreira'
+authors: '<a href="http://lattes.cnpq.br/7256020961352532">J. O. Santana</a> and R. F. Ferreira'
 
 arxiv: ""
 ---
