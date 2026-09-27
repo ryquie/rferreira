@@ -2,7 +2,7 @@
 title: "Uma aproximação do tipo Euler-Maruyama para o processo de Cox-Ingersoll-Ross"
 collection: publications
 category: theses
-date: 2015-01-01
+date: 2015-02-26
 
 authors: "R. F. Ferreira"
 degree: "Master's Thesis"
