@@ -2,7 +2,7 @@
 title: "Cadeias estocásticas de memória ilimitada com aplicação na neurociência"
 collection: publications
 category: theses
-date: 2019-01-01
+date: 2019-03-21
 
 authors: "R. F. Ferreira"
 degree: "PhD Thesis"
