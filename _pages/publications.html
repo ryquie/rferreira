@@ -123,7 +123,7 @@ author_profile: true
       {{ post.degree }}
     {% endif %}
 
-   {% if post.institution %}
+{% if post.institution %}
   ,
   {% if post.institutionurl %}
     <a href="{{ post.institutionurl }}">{{ post.institution }}</a>
@@ -135,6 +135,20 @@ author_profile: true
     {% if post.date %}
       ({{ post.date | date: "%Y" }})
     {% endif %}.
+
+    {% if post.advisors and post.advisors.size > 0 %}
+      {% if post.advisors.size == 1 %}
+        Advisor:
+      {% else %}
+        Advisors:
+      {% endif %}
+
+      {% for advisor in post.advisors %}
+        {% if advisor.url and advisor.url != "" %}
+          <a href="{{ advisor.url }}">{{ advisor.name }}</a>{% else %}
+          {{ advisor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}.
+    {% endif %}
 
     {% if post.thesisurl and post.thesisurl != "" %}
       <a href="{{ post.thesisurl }}">[Thesis]</a>
