@@ -60,6 +60,44 @@ master:
     grant: "CAPES"
     thesisurl: "https://teses.usp.br/teses/disponiveis/104/104131/tde-08082022-164253/pt-br.html"
 
+  research:
+    - name: "João Pedro Pirola"
+      title: "A ligação entre células gliais e a transmissão sináptica"
+      date: 2024-01-01
+      year: "2024"
+      studenturl: "https://www.linkedin.com/in/joão-pedro-pirola-86b5a7224/"
+      grant: "FAPESP"
+      projecturl: "https://bv.fapesp.br/pt/bolsas/214501/a-ligacao-entre-celulas-gliais-e-a-transmissao-sinaptica/"
+
+    - name: "João Pedro Pirola"
+      title: "Identificação de células gliais por meio de redes neurais artificiais"
+      date: 2023-02-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/joão-pedro-pirola-86b5a7224/"
+      grant: "FAPESP"
+      projecturl: "https://bv.fapesp.br/pt/bolsas/212028/identificacao-de-celulas-glia-por-meio-de-redes-neurais-artificiais/"
+
+    - name: "João Victor Russo Izzi"
+      title: "Conectividade efetiva entre neurônios"
+      date: 2023-01-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/joaoizzi/"
+      grant: "FAPESP"
+      projecturl: "https://bv.fapesp.br/pt/bolsas/205351/conectividade-efetiva-entre-neuronios/"
+
+    - name: "Maria Clara do Carmo Santos"
+      title: "Práticas pedagógicas para o ensino de Estatística no Ensino Médio"
+      date: 2023-01-01
+      year: "2023"
+      studenturl: "https://www.linkedin.com/in/maria-clara-do-carmo-santos-6025662b2/"
+      grant: "CNPq"
+      projecturl: ""
+
+    - name: "Isadora Nascimento de Almeida"
+      title: "Programação quadrática aplicada à análise de portfólios de Markowitz"
+      date: 2021-01-01
+      year: "2021"
+      studenturl: "https://www.linkedin.com/in/isadora-almeida-n/"
 
 undergraduate:
 
@@ -183,44 +221,5 @@ undergraduate:
       studenturl: "https://www.linkedin.com/in/victor-augusto-girardi/"
       thesisurl: "https://repositorio.ufscar.br/items/e5483c61-4d8a-4f17-b76e-1adab0fdc190"
 
-
-  research:
-    - name: "João Pedro Pirola"
-      title: "A ligação entre células gliais e a transmissão sináptica"
-      date: 2024-01-01
-      year: "2024"
-      studenturl: "https://www.linkedin.com/in/joão-pedro-pirola-86b5a7224/"
-      grant: "FAPESP"
-      projecturl: "https://bv.fapesp.br/pt/bolsas/214501/a-ligacao-entre-celulas-gliais-e-a-transmissao-sinaptica/"
-
-    - name: "João Pedro Pirola"
-      title: "Identificação de células gliais por meio de redes neurais artificiais"
-      date: 2023-02-01
-      year: "2023"
-      studenturl: "https://www.linkedin.com/in/joão-pedro-pirola-86b5a7224/"
-      grant: "FAPESP"
-      projecturl: "https://bv.fapesp.br/pt/bolsas/212028/identificacao-de-celulas-glia-por-meio-de-redes-neurais-artificiais/"
-
-    - name: "João Victor Russo Izzi"
-      title: "Conectividade efetiva entre neurônios"
-      date: 2023-01-01
-      year: "2023"
-      studenturl: "https://www.linkedin.com/in/joaoizzi/"
-      grant: "FAPESP"
-      projecturl: "https://bv.fapesp.br/pt/bolsas/205351/conectividade-efetiva-entre-neuronios/"
-
-    - name: "Maria Clara do Carmo Santos"
-      title: "Práticas pedagógicas para o ensino de Estatística no Ensino Médio"
-      date: 2023-01-01
-      year: "2023"
-      studenturl: "https://www.linkedin.com/in/maria-clara-do-carmo-santos-6025662b2/"
-      grant: "CNPq"
-      projecturl: ""
-
-    - name: "Isadora Nascimento de Almeida"
-      title: "Programação quadrática aplicada à análise de portfólios de Markowitz"
-      date: 2021-01-01
-      year: "2021"
-      studenturl: "https://www.linkedin.com/in/isadora-almeida-n/"
       grant: "CNPq"
       projecturl: ""
