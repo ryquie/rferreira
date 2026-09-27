@@ -150,6 +150,14 @@ author_profile: true
       {% endfor %}.
     {% endif %}
 
+  {% if post.grant %}
+  {% if post.granturl and post.granturl != "" %}
+    (<a href="{{ post.granturl }}">{{ post.grant }}</a>)
+  {% else %}
+    ({{ post.grant }})
+  {% endif %}
+{% endif %}
+
     {% if post.thesisurl and post.thesisurl != "" %}
       <a href="{{ post.thesisurl }}">[Thesis]</a>
     {% endif %}
