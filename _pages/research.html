@@ -13,47 +13,43 @@ author_profile: true
 <h2>Research Grants</h2>
 
 <div class="research-list">
-{% for grant in grants %}
 
+{% for grant in grants %}
 <p class="research-line">
 
   <span class="research-number">[{{ forloop.rindex }}]</span>
+
+  {% if grant.process %}
+    {% if grant.processurl and grant.processurl != "" %}
+      <a href="{{ grant.processurl }}">{{ grant.process }}</a>.
+    {% else %}
+      {{ grant.process }}.
+    {% endif %}
+  {% endif %}
+
+  {% if grant.institution %}
+    {{ grant.institution }}.
+  {% endif %}
 
   {% if grant.title %}
     <strong>{{ grant.title }}</strong>.
   {% endif %}
 
-  {% if grant.agency %}
-    {% if grant.agencyurl %}
-      <a href="{{ grant.agencyurl }}">{{ grant.agency }}</a>
-    {% else %}
-      {{ grant.agency }}
-    {% endif %}
+  {% if grant.type %}
+    {{ grant.type }}.
   {% endif %}
 
   {% if grant.start %}
-    ,
-    {{ grant.start }}
-    {% if grant.end %}
-      –{{ grant.end }}
-    {% endif %}
-  {% endif %}.
+    {{ grant.start }}{% if grant.end %}–{{ grant.end }}{% endif %}.
+  {% endif %}
 
   {% if grant.role %}
     {{ grant.role }}.
   {% endif %}
 
-  {% if grant.grant_number and grant.grant_number != "" %}
-    {{ grant.grant_number }}.
-  {% endif %}
-
-  {% if grant.projecturl and grant.projecturl != "" %}
-    <a href="{{ grant.projecturl }}">[Project]</a>
-  {% endif %}
-
 </p>
-
 {% endfor %}
+
 </div>
 {% endif %}
 
