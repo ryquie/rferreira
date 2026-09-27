@@ -1,21 +1,21 @@
 grants:
 
-  - title: "Título do projeto mais recente"
-    agency: "FAPESP"
-    agencyurl: "https://fapesp.br/"
+  - process: "2025/XXXXX-X"
+    processurl: "https://..."
+    institution: "FAPESP"
+    title: "Título do projeto mais recente"
+    type: "Regular Research Grant"
     start: "2025"
     end: "2027"
-    date: 2025-01-01
-    grant_number: "Processo 2025/XXXXX-X"
     role: "Principal Investigator"
-    projecturl: "https://..."
+    date: 2025-01-01
 
-  - title: "Título de outro projeto"
-    agency: "CNPq"
-    agencyurl: "https://www.gov.br/cnpq/"
+  - process: "XXXXXX/2023-X"
+    processurl: ""
+    institution: "CNPq"
+    title: "Título de outro projeto"
+    type: "Research Grant"
     start: "2023"
     end: "2025"
-    date: 2023-01-01
-    grant_number: ""
     role: "Principal Investigator"
-    projecturl: ""
+    date: 2023-01-01
