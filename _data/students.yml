@@ -93,13 +93,15 @@ undergraduate:
       year: "2023"
       studenturl: "https://www.linkedin.com/in/maria-clara-do-carmo-santos-6025662b2/"
       grant: "CNPq"
-      projecturl: ""
+      projecturl: "/rferreira/files/projects/maria-clara-santos.pdf"
 
     - name: "Isadora Nascimento de Almeida"
       title: "Programação quadrática aplicada à análise de portfólios de Markowitz"
       date: 2021-01-01
       year: "2021"
       studenturl: "https://www.linkedin.com/in/isadora-almeida-n/"
+      grant: "CNPq"
+      projecturl: "/rferreira/files/projects/isadora-almeida.pdf"
       
   thesis:
     - name: "Eduardo Rio Oliveira"
@@ -220,6 +222,3 @@ undergraduate:
       year: "2021"
       studenturl: "https://www.linkedin.com/in/victor-augusto-girardi/"
       thesisurl: "https://repositorio.ufscar.br/items/e5483c61-4d8a-4f17-b76e-1adab0fdc190"
-
-      grant: "CNPq"
-      projecturl: ""
