@@ -7,6 +7,8 @@ grants:
     type: "Scholarships abroad - Research"
     start: "2026"
     end: "2027"
+    host: "Gábor Lugosi"
+    hosturl: "https://www.upf.edu/web/gabor-lugosi"
     date: 2027-07-31
 
   - process: "18/25076-3"
@@ -16,4 +18,6 @@ grants:
     type: "Scholarships in Brazil - Post-Doctoral"
     start: "2019"
     end: "2019"
+    host: "Florencia Graciela Leonardi"
+    hosturl: "http://lattes.cnpq.br/7805423923220410"
     date: 2019-07-01
