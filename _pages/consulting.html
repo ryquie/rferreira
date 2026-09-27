@@ -1,0 +1,86 @@
+---
+layout: archive
+title: "Consulting"
+permalink: /consulting/
+author_profile: true
+---
+
+<div class="consulting-simple">
+
+<p class="consulting-intro">
+  Part of my work as a professor involves providing statistical consulting to both the internal and external university communities. Below, I list the consulting projects in which I have participated or am currently involved.
+</p>
+
+{% assign projects = site.data.consulting.projects | sort: "date" | reverse %}
+
+{% if projects.size > 0 %}
+<h2>Consulting Projects</h2>
+
+<div class="consulting-list">
+
+{% for project in projects %}
+<p class="consulting-line">
+
+  <span class="consulting-number">[{{ forloop.rindex }}]</span>
+
+  {% if project.process %}
+    {% if project.processurl and project.processurl != "" %}
+      <a href="{{ project.processurl }}">{{ project.process }}</a>.
+    {% else %}
+      {{ project.process }}.
+    {% endif %}
+  {% endif %}
+
+  {% if project.title %}
+    <strong>{{ project.title }}</strong>.
+  {% endif %}
+
+  {% if project.start %}
+    {{ project.start }}{% if project.end %}–{{ project.end }}{% endif %}.
+  {% endif %}
+
+</p>
+{% endfor %}
+
+</div>
+{% endif %}
+
+</div>
+
+
+<style>
+.consulting-simple {
+  max-width: 950px;
+}
+
+.consulting-intro {
+  margin-bottom: 1.8em;
+  line-height: 1.6;
+}
+
+.consulting-simple h2 {
+  margin-top: 1.8em;
+  margin-bottom: 1em;
+  padding-bottom: 0.25em;
+  font-size: 1.25em;
+  font-weight: 600;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.consulting-line {
+  margin: 0 0 0.8em 0;
+  line-height: 1.6;
+}
+
+.consulting-number {
+  margin-right: 0.5em;
+}
+
+.consulting-line a {
+  text-decoration: none;
+}
+
+.consulting-line a:hover {
+  text-decoration: underline;
+}
+</style>
