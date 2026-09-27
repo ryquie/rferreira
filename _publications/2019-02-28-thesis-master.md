@@ -6,7 +6,8 @@ date: 2015-01-01
 
 authors: "R. F. Ferreira"
 degree: "Master's Thesis"
-institution: "PIPGES UFSCar/USP"
+institution: "PIPGEs UFSCar/USP"
+institutionurl: "https://www.pipges.ufscar.br/pt-br"
 
 advisors:
   - name: "Dorival Leão Pinto Júnior"
