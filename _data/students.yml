@@ -60,6 +60,8 @@ master:
     grant: "CAPES"
     thesisurl: "https://teses.usp.br/teses/disponiveis/104/104131/tde-08082022-164253/pt-br.html"
 
+undergraduate:
+
   research:
     - name: "João Pedro Pirola"
       title: "A ligação entre células gliais e a transmissão sináptica"
@@ -98,9 +100,7 @@ master:
       date: 2021-01-01
       year: "2021"
       studenturl: "https://www.linkedin.com/in/isadora-almeida-n/"
-
-undergraduate:
-
+      
   thesis:
     - name: "Eduardo Rio Oliveira"
       title: "Um ensaio expositivo sobre demonstrações matemáticas na teoria da predição conformal"
