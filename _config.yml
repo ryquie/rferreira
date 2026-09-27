@@ -27,16 +27,17 @@ author:
   bio : "Professor"
   location : "Brasil"
   employer : "UFSCar"
-  email : "rferreira@gmail.com" 
+  employerurl : "https://www.ufscar.br"
+  email : "rferreira@ufscar.com" 
   
 
   # Academic websites
   academia :
-  arxiv : "SEU_LINK_DO_ARXIV"
-  googlescholar : "SEU_LINK_DO_GOOGLE_SCHOLAR"
+  arxiv : "https://arxiv.org/search/?searchtype=author&query=Ferreira%2C+R+F"
+  googlescholar : "https://scholar.google.com/citations?user=iIELxngAAAAJ&hl=en"
   inspire-hep :
   impactstory :
-  orcid : "SEU_LINK_DO_ORCID"
+  orcid : "https://orcid.org/0000-0001-5555-0526"
   semantic :
   ssrn :
   pubmed :
