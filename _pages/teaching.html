@@ -33,8 +33,8 @@ author_profile: true
   {% endif %}
 
   {% if note.notesurl and note.notesurl != "" %}
-  <a href="{{ note.notesurl }}">[Notes]</a>
-{% endif %}
+    <a href="{{ note.notesurl }}">[Notes]</a>
+  {% endif %}
 </p>
 {% endfor %}
 
