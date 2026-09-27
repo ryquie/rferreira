@@ -77,6 +77,38 @@ author_profile: true
 
 <h2>Undergraduate</h2>
 
+{% assign research = site.data.students.undergraduate.research | sort: "date" | reverse %}
+{% if research.size > 0 %}
+<h3>Undergraduate Research</h3>
+
+{% for student in research %}
+<p class="student-line">
+  <span class="student-number">[{{ forloop.rindex }}]</span>
+
+  {% if student.studenturl %}
+    <a href="{{ student.studenturl }}">{{ student.name }}</a>.
+  {% else %}
+    {{ student.name }}.
+  {% endif %}
+
+  {% if student.title %}
+    {{ student.title }}.
+  {% endif %}
+
+  {% if student.year %}
+    {{ student.year }}.
+  {% endif %}
+
+  {% if student.grant %}
+    <span class="student-grant">({{ student.grant }})</span>
+  {% endif %}
+
+  {% if student.projecturl and student.projecturl != "" %}
+    <a href="{{ student.projecturl }}">[Project]</a>
+  {% endif %}
+</p>
+{% endfor %}
+{% endif %}
 
 {% assign thesis = site.data.students.undergraduate.thesis | sort: "date" | reverse %}
 {% if thesis.size > 0 %}
@@ -106,40 +138,6 @@ author_profile: true
 
   {% if student.thesisurl and student.thesisurl != "" %}
     <a href="{{ student.thesisurl }}">[Thesis]</a>
-  {% endif %}
-</p>
-{% endfor %}
-{% endif %}
-
-
-{% assign research = site.data.students.undergraduate.research | sort: "date" | reverse %}
-{% if research.size > 0 %}
-<h3>Undergraduate Research</h3>
-
-{% for student in research %}
-<p class="student-line">
-  <span class="student-number">[{{ forloop.rindex }}]</span>
-
-  {% if student.studenturl %}
-    <a href="{{ student.studenturl }}">{{ student.name }}</a>.
-  {% else %}
-    {{ student.name }}.
-  {% endif %}
-
-  {% if student.title %}
-    {{ student.title }}.
-  {% endif %}
-
-  {% if student.year %}
-    {{ student.year }}.
-  {% endif %}
-
-  {% if student.grant %}
-    <span class="student-grant">({{ student.grant }})</span>
-  {% endif %}
-
-  {% if student.projecturl and student.projecturl != "" %}
-    <a href="{{ student.projecturl }}">[Project]</a>
   {% endif %}
 </p>
 {% endfor %}
