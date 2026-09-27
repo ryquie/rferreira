@@ -123,9 +123,14 @@ author_profile: true
       {{ post.degree }}
     {% endif %}
 
-    {% if post.institution %}
-      , {{ post.institution }}
-    {% endif %}
+   {% if post.institution %}
+  ,
+  {% if post.institutionurl %}
+    <a href="{{ post.institutionurl }}">{{ post.institution }}</a>
+  {% else %}
+    {{ post.institution }}
+  {% endif %}
+{% endif %}
 
     {% if post.date %}
       ({{ post.date | date: "%Y" }})
