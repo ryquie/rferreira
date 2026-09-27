@@ -6,7 +6,8 @@ date: 2019-01-01
 
 authors: "R. F. Ferreira"
 degree: "PhD Thesis"
-institution: "PIPGES UFSCar/USP"
+institution: "PIPGEs UFSCar/USP"
+institutionurl: "https://www.pipges.ufscar.br/pt-br"
 
 advisors:
   - name: "Alexsandro Giacomo Grimbert Gallo"
